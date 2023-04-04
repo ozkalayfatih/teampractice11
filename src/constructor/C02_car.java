@@ -1,6 +1,6 @@
 package constructor;
 
-public class Car {
+public class C02_car {
 	// Java biz bir class olusturdugumuzda, o class'dan obje uretecegimizi bilir
 	// ve her class'a default bir constructor yerlestirir
 	// Java'nin class'a koydugu bu default constructor gorulmez 
@@ -14,17 +14,29 @@ public class Car {
 	// 2- Constructor'larin return tyope'i olmaz
 	// (method'dan 2.farki budur, method'larin mutlaka return type'i olmalidir)
 	
-	public Car() {
+	public C02_car() {
 		
 	}
 	// Java'nin her class'da olusturdugu constructor budur.
-	
-	
+
+
 	public int yil=2000;
-	String renk;
-	String model;
-	int km;
-	boolean satilikMi;
+
+	@Override
+	public String toString() {
+		return "C02_car{" +
+				"yil=" + yil +
+				", renk='" + renk + '\'' +
+				", model='" + model + '\'' +
+				", km=" + km +
+				", satilikMi=" + satilikMi +
+				'}';
+	}
+
+	public String renk;
+	public String model;
+	public int km;
+	public boolean satilikMi;
 	
 	// Bugun itibariyle class'larda main method olma mecburiyeti kaldirilmistir :)
 	// Ancak bildigimiz gibi main method olmayan bir class direk calistirilamaz

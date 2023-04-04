@@ -1,11 +1,11 @@
 package constructor;
 
-public class CarRunner {
+public class C03_CarRunner {
 
 	public static void main(String[] args) {
 		// Car class'indan bir obje olusturalim
 		
-		     Car           car1        =      new            Car();
+		     C02_car car1        =      new C02_car();
 		// class ismi    obje ismi  atama   keyword		Constructor call
 		
 		System.out.println(car1.km +" " + car1.model + " " + car1.renk + " " + car1.yil); // 0 null null 2000

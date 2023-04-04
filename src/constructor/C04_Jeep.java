@@ -1,6 +1,6 @@
 package constructor;
 
-public class Jeep {
+public class C04_Jeep {
 
 	
 		int ilanNo=1001;

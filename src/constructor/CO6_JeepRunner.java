@@ -1,11 +1,11 @@
 package constructor;
 
-public class JeepRunner {
+public class CO6_JeepRunner {
 
 	public static void main(String[] args) {
 		// Jeep class'indan bir obje olusturalim ve ozelliklerini yazdiralim
 		
-		Jeep jeep1=new Jeep();
+		C04_Jeep jeep1=new C04_Jeep();
 		
 		System.out.println(jeep1.fiyat + " " + jeep1.ilanNo  + " " + jeep1.marka +
 				            " " + jeep1.model+ " " + jeep1.yil); // 10000 1001 null null 2001
