@@ -21,18 +21,6 @@ public class C02_car {
 
 
 	public int yil=2000;
-
-	@Override
-	public String toString() {
-		return "C02_car{" +
-				"yil=" + yil +
-				", renk='" + renk + '\'' +
-				", model='" + model + '\'' +
-				", km=" + km +
-				", satilikMi=" + satilikMi +
-				'}';
-	}
-
 	public String renk;
 	public String model;
 	public int km;
